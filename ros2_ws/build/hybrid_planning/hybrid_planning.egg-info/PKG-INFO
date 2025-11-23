@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hybrid-planning
+Version: 0.0.0
+Summary: Hybrid TAMP with ROSPlan2 and MoveIt
+Maintainer: user
+Maintainer-email: user@todo.todo
+License: Apache-2.0

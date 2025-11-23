@@ -1,0 +1,51 @@
+[1.343s] Invoking command in '/home/nischaysoni/ros2_ws/src/hybrid_planning': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nischaysoni/ros2_ws/build/hybrid_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hybrid_planning build --build-base /home/nischaysoni/ros2_ws/build/hybrid_planning/build install --record /home/nischaysoni/ros2_ws/build/hybrid_planning/install.log --single-version-externally-managed install_data
+[1.837s] running egg_info
+[1.838s] creating ../../build/hybrid_planning/hybrid_planning.egg-info
+[1.876s] writing ../../build/hybrid_planning/hybrid_planning.egg-info/PKG-INFO
+[1.876s] writing dependency_links to ../../build/hybrid_planning/hybrid_planning.egg-info/dependency_links.txt
+[1.876s] writing entry points to ../../build/hybrid_planning/hybrid_planning.egg-info/entry_points.txt
+[1.876s] writing requirements to ../../build/hybrid_planning/hybrid_planning.egg-info/requires.txt
+[1.877s] writing top-level names to ../../build/hybrid_planning/hybrid_planning.egg-info/top_level.txt
+[1.877s] writing manifest file '../../build/hybrid_planning/hybrid_planning.egg-info/SOURCES.txt'
+[1.952s] reading manifest file '../../build/hybrid_planning/hybrid_planning.egg-info/SOURCES.txt'
+[1.953s] writing manifest file '../../build/hybrid_planning/hybrid_planning.egg-info/SOURCES.txt'
+[1.954s] running build
+[1.954s] running build_py
+[1.954s] creating /home/nischaysoni/ros2_ws/build/hybrid_planning/build
+[1.954s] creating /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib
+[1.954s] creating /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning
+[1.954s] copying hybrid_planning/replanner.py -> /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning
+[1.955s] copying hybrid_planning/__init__.py -> /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning
+[1.955s] copying hybrid_planning/monitor_motion.py -> /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning
+[1.955s] copying hybrid_planning/sequential_controller.py -> /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning
+[1.955s] running install
+[1.965s] running install_lib
+[2.000s] creating /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning
+[2.001s] copying /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning/replanner.py -> /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning
+[2.001s] copying /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning/__init__.py -> /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning
+[2.001s] copying /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning/monitor_motion.py -> /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning
+[2.001s] copying /home/nischaysoni/ros2_ws/build/hybrid_planning/build/lib/hybrid_planning/sequential_controller.py -> /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning
+[2.001s] byte-compiling /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning/replanner.py to replanner.cpython-312.pyc
+[2.003s] byte-compiling /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning/__init__.py to __init__.cpython-312.pyc
+[2.003s] byte-compiling /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning/monitor_motion.py to monitor_motion.cpython-312.pyc
+[2.006s] byte-compiling /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning/sequential_controller.py to sequential_controller.cpython-312.pyc
+[2.008s] running install_data
+[2.008s] creating /home/nischaysoni/ros2_ws/install/hybrid_planning/share/ament_index
+[2.008s] creating /home/nischaysoni/ros2_ws/install/hybrid_planning/share/ament_index/resource_index
+[2.008s] creating /home/nischaysoni/ros2_ws/install/hybrid_planning/share/ament_index/resource_index/packages
+[2.009s] copying resource/hybrid_planning -> /home/nischaysoni/ros2_ws/install/hybrid_planning/share/ament_index/resource_index/packages
+[2.009s] copying package.xml -> /home/nischaysoni/ros2_ws/install/hybrid_planning/share/hybrid_planning
+[2.009s] creating /home/nischaysoni/ros2_ws/install/hybrid_planning/share/hybrid_planning/launch
+[2.009s] copying launch/hybrid_run.launch.py -> /home/nischaysoni/ros2_ws/install/hybrid_planning/share/hybrid_planning/launch
+[2.010s] copying launch/sequential_run.launch.py -> /home/nischaysoni/ros2_ws/install/hybrid_planning/share/hybrid_planning/launch
+[2.010s] creating /home/nischaysoni/ros2_ws/install/hybrid_planning/share/hybrid_planning/pddl
+[2.010s] copying pddl/hybrid_problem.pddl -> /home/nischaysoni/ros2_ws/install/hybrid_planning/share/hybrid_planning/pddl
+[2.010s] copying pddl/hybrid_domain.pddl -> /home/nischaysoni/ros2_ws/install/hybrid_planning/share/hybrid_planning/pddl
+[2.010s] running install_egg_info
+[2.049s] Copying ../../build/hybrid_planning/hybrid_planning.egg-info to /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages/hybrid_planning-0.0.0-py3.12.egg-info
+[2.051s] running install_scripts
+[2.293s] Installing monitor_motion script to /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/hybrid_planning
+[2.293s] Installing replanner script to /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/hybrid_planning
+[2.293s] Installing sequential_controller script to /home/nischaysoni/ros2_ws/install/hybrid_planning/lib/hybrid_planning
+[2.294s] writing list of installed files to '/home/nischaysoni/ros2_ws/build/hybrid_planning/install.log'
+[2.345s] Invoked command in '/home/nischaysoni/ros2_ws/src/hybrid_planning' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/nischaysoni/ros2_ws/build/hybrid_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nischaysoni/ros2_ws/install/hybrid_planning/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hybrid_planning build --build-base /home/nischaysoni/ros2_ws/build/hybrid_planning/build install --record /home/nischaysoni/ros2_ws/build/hybrid_planning/install.log --single-version-externally-managed install_data

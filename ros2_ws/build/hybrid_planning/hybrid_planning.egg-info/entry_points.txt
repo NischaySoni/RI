@@ -1,0 +1,4 @@
+[console_scripts]
+monitor_motion = hybrid_planning.monitor_motion:main
+replanner = hybrid_planning.replanner:main
+sequential_controller = hybrid_planning.sequential_controller:main
